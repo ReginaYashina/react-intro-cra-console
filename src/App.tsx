@@ -4,16 +4,18 @@ import './App.css';
 import { log } from 'console';
 import Accordion from './components/Accordion/Accordion';
 import Rating from './components/Rating/Rating';
+import UnControlledAccordion from './components/UnControlledAccordion/UnControlledAccordion';
 
 function App() {
   console.log('App rendering');
   return (
     <div>
-      <PageTitle title={'First Page Title'} />
-      <Rating value={1} />
-      <Accordion title={'First Page Accordion Title'} collapsed={true} />
-      <Rating value={5} />
-      <Accordion title={'Second Accordion Title'} collapsed={false} />
+      {/*<PageTitle title={'First Page Title'} />*/}
+      {/*<Rating value={1} />*/}
+      {/*<Accordion title={'First Page UnControlledAccordion Title'} collapsed={true} />*/}
+      {/*<Rating value={5} />*/}
+      {/*<Accordion title={'Second UnControlledAccordion Title'} collapsed={false} />*/}
+        <UnControlledAccordion title={'UnControlledAccordion'}/>
     </div>
   );
 }
