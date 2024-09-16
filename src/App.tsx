@@ -18,9 +18,8 @@ function App() {
     return (
         <div>
             {/*<PageTitle title={'First Page Title'} />*/}
-            {/*<Rating value={ratingValue} setRatingValue = {setRatingValue}/>*/}
+            <Rating value={ratingValue} setRatingValue = {setRatingValue}/>
             <Accordion title={'ControlledAccordion'} collapsed={accordionCollapsed} setAccordionCollapsed={setAccordionCollapsed} />
-            {/*<Rating value={5} />*/}
             {/*<Accordion title={'Second UnControlledAccordion Title'} collapsed={false} />*/}
             {/*<UnControlledAccordion title={'UnControlledAccordion'}/>*/}
             {/*<UnControlledRating value={4}/>*/}

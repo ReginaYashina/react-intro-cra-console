@@ -1,13 +1,13 @@
 import React from 'react';
-onBtn{
-
-}
+// onBtn{
+//
+// }
 export const OnOff = () => {
     return (
         <>
-            <div className={onBtn}>on</div>
-            <div className={offBtn}>off</div>
-            <div className={indicator}></div>
+            {/*<div className={onBtn}>on</div>*/}
+            {/*<div className={offBtn}>off</div>*/}
+            {/*<div className={indicator}></div>*/}
         </>
     );
 };
